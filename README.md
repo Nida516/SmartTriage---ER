@@ -32,3 +32,20 @@ An AI-driven Emergency Room (ER) scheduling application designed to minimize pat
 ├── patients.csv      # Local database (Auto-generated/Appended)
 ├── submission.json   # Output file for judge verification
 └── README.md         # Documentation
+
+Input and Output
+~Input
+The system accepts patient information through manual registration or CSV import.
+
+Typical scheduling inputs include:
+-Patient identifier
+-Clinical severity or risk weight
+-Estimated treatment duration
+-Required medical specialization, where applicable
+The exact column names and required fields must match the application's implementation.
+
+~Output
+The application generates a submission.json file containing:
+-The resulting treatment schedule
+-The total risk score calculated by the implementation
+The precise JSON schema and risk-score formula are determined by the backend code in verify.py.
