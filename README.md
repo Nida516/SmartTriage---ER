@@ -17,10 +17,10 @@ An AI-driven Emergency Room (ER) scheduling application designed to minimize pat
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** Streamlit (Python-based Web Framework)
-* **Data Handling:** Pandas (CSV parsing and state management)
-* **Algorithm:** Python `heapq` (Min-heap for $O(\log n)$ priority queueing)
-* **Data Format:** JSON (Standardized competition output)
+* **Frontend:** Streamlit (Python-based Web Framework).
+* **Data Handling:** Pandas (CSV parsing and state management).
+* **Algorithm:** Python `heapq` (Min-heap for $O(\log n)$ priority queueing).
+* **Data Format:** JSON (Standardized competition output).
 
 ---
 
